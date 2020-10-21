@@ -5,8 +5,12 @@ class Shape {
     this.color = color;
   }
 
-  drawShape() {}
-  calculateArea() {}
+  drawShape() {
+    console.log("shape");
+  }
+  calculateArea() {
+    console.log("area of shape");
+  }
 }
 
 export default Shape;

@@ -5,6 +5,8 @@ class Cirlce extends Shape {
     super(color);
   }
 
-  calculateArea() {}
+  calculateArea() {
+    console.log("area of circle");
+  }
 }
 export default Cirlce;
