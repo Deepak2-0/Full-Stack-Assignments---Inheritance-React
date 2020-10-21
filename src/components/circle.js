@@ -1,7 +1,10 @@
-// import 
+import Shape from "Shape";
 
-// declare class
+class Cirlce extends Shape {
+  constructor(color) {
+    super(color);
+  }
 
-
-// export
-
+  calculateArea() {}
+}
+export default Cirlce;
